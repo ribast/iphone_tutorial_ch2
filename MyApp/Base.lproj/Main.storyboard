@@ -23,11 +23,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6w-3y-DYc">
+                                <rect key="frame" x="184" y="428" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="22T-JZ-Y69" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fno-zZ-anq"/>
-                            <constraint firstItem="22T-JZ-Y69" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ij0-Ye-kzg"/>
+                            <constraint firstItem="22T-JZ-Y69" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6GR-h2-gZf"/>
+                            <constraint firstItem="N6w-3y-DYc" firstAttribute="top" secondItem="22T-JZ-Y69" secondAttribute="bottom" constant="50" id="Zdd-RQ-ZK4"/>
+                            <constraint firstItem="22T-JZ-Y69" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gA7-UU-o6n"/>
+                            <constraint firstItem="22T-JZ-Y69" firstAttribute="centerX" secondItem="N6w-3y-DYc" secondAttribute="centerX" id="lKn-HB-F0R"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
